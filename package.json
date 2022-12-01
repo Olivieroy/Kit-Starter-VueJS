@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "sass": "sass --watch public/sass/master.scss:public/css/remove.css --style compressed --no-source-map"
+    "sass": "sass --watch public/sass/master.scss:public/css/master.css --style compressed --no-source-map"
   },
   "dependencies": {
     "sass": "^1.56.1",

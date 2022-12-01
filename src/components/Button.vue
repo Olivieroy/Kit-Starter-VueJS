@@ -11,15 +11,23 @@ defineProps({
     type: {
         type: String,
         default: "filled"
+    },
+    link: {
+        type: String,
+        default: ""
+    },
+    target:{
+        type: String,
+        default: "_self"
     }
 })
 </script>
 
 <template>
-    <a href="" :class="`btn ${type} ${color} `">
+    <a  :class="`btn ${type} ${color} `" :href="` ${link}`" :target="` ${target}`">
         {{ text }}
     </a>
 </template>
 
 
-  
+  type 

@@ -1,10 +1,11 @@
 <script setup>
-    import { RouterLink, RouterView } from "vue-router";
+import { RouterLink, RouterView } from "vue-router";
+    import Button from '../components/Button.vue';
 </script>
 
 <template>
     <header class="header">
-        <a href="https://github.com/Olivieroy?tab=repositories" class="logo" target="_blank"><img src="/favicon.ico" alt="">Starter-Kit-VueJs</a>
+        <a href="https://github.com/Olivieroy/Kit-Starter-VueJS#readme" class="logo" target="_blank"><img src="/favicon.ico" alt="">Starter-Kit-VueJs</a>
 
        <nav class="nav">
             <RouterLink to="/">Home</RouterLink>
