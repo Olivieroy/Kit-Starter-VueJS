@@ -13,3 +13,23 @@
         <Button text="Button" color="secondary" type="link"  /> 
     </div>
 </template>
+
+<style lang="scss">
+
+@use '../sass/global' as *;
+
+.components{
+    display: flex;
+    gap: rem(16);
+    align-items: center;
+    justify-content: center;
+    margin-top: rem(16);
+}
+
+.title-components{
+    font-size: rem(24);
+    font-weight: 700;
+    margin-bottom: rem(12);
+    text-align: center;
+}
+</style>

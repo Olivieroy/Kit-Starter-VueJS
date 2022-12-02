@@ -11,10 +11,32 @@ import { RouterLink, RouterView } from "vue-router";
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/components">Components</RouterLink>
             <router-link  to="/about">About</router-link>
+            <router-link to="/test">Test</router-link>
        </nav>
         <a href="https://github.com/Olivieroy" target="_blank">Create by Olivieroy</a>
     </header>
 </template>
+
+<style lang="scss">
+
+@use '../sass/global' as *;
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    padding: rem(32) rem(16);
+    background: color(btow, 0);
+}
+
+.nav{
+    display: flex;
+    gap: rem(20);
+    width: rem(400);
+}
+</style>
 
 <style scoped>
 header{

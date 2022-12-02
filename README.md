@@ -59,20 +59,6 @@ Good Luck ! 🍀
 │   ├── img 📁        # Images
 │   │
 │   └──  sass 📁                    # SASS folder
-│       ├── components 📁              # Components folder
-│       │   │
-│       │   ├── _button.scss 📄        # Button component
-│       │   │
-│       │   ├── _card.scss 📄          # Card component
-│       │   │
-│       │   ├── _cta.scss 📄        # Cta component
-│       │   │
-│       │   ├── _index.scss 📄        # Index file for components
-│       │   │
-│       │   ├── _inputs.scss 📄          # Inputs component
-│       │   │
-│       │   └──  _labels.scss 📄        # Labels component          
-│       │
 │       ├── global 📁              # Global folder
 │       │   ├── _animations.scss 📄        # Animations file
 │       │   │
@@ -90,27 +76,12 @@ Good Luck ! 🍀
 │       │   │
 │       │   └──  _mixins.scss 📄        # Mixins file
 │       │
-│       ├── layouts 📁              # Layouts folder
-│       │   ├── _footer.scss 📄        # Footer file
-│       │   │
-│       │   ├── _form.scss 📄        # Form file
-│       │   │
-│       │   ├── _header.scss 📄        # Header file
-│       │   │
-│       │   ├── _index.scss 📄        # Index file for layouts
-│       │   │
-│       │   └──  _main.scss 📄        # Functions file
-│       │
 │       ├── libs 📁              # Libs folder
 │       │   ├── _index.scss 📄        # Index file for libs
 │       │   │
 │       │   ├── _normalize.scss 📄        # Normalize file
 │       │   │
 │       │   └──  _reset.scss 📄        # Reset file
-│       ├── pages 📁              # Pages folder
-│       │   ├── _home.scss 📄        # Home file
-│       │   │
-│       │   └──_index.scss 📄        # Index file for pages
 │       │
 │       └──  master 📄              # SCSS file for the project to compiled 
 │
@@ -140,6 +111,26 @@ Good Luck ! 🍀
 │   ├── router 📁        # Router folder
 │   │   └──index.js 📄    # Router file
 │   │
+│   ├──  sass 📁                    # SASS folder
+│   │  ├── global 📁              # Global folder
+│   │  │   ├── _animations.scss 📄        # Animations file
+│   │  │   │
+│   │  │   ├── _breakpoints.scss 📄        # Breakpoints file
+│   │  │   │
+│   │  │   ├── _colors.scss 📄        # Colors file
+│   │  │   │
+│   │  │   ├── _fonts.scss 📄        # Fonts file
+│   │  │   │
+│   │  │   ├── _functions.scss 📄        # Functions file
+│   │  │   │
+│   │  │   ├── _icons.scss 📄        # Icons file
+│   │  │   │
+│   │  │   ├── _index.scss 📄        # Index file for global
+│   │  │   │
+│   │  │   └──  _mixins.scss 📄        # Mixins file
+│   │  │
+│   │  └──  master 📄              # SCSS file for the project to compiled in .vue file
+│   │
 │   ├── App.vue 📄      # App file
 │   │
 │   └── main.js 📄      # Main file
@@ -160,7 +151,7 @@ Good Luck ! 🍀
 │
 ├── README.md 📄              # Readme file
 │
-├──vite.config.js 📄              # Vite config file
+└──vite.config.js 📄              # Vite config file
 ```
 
 

@@ -9,3 +9,25 @@
         <p>And if you want to support me, you can buy me a coffee. ☕</p>
     </div>
 </template>
+
+<style lang="scss">
+
+@use '../sass/global' as *;
+
+.congralutation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: rem(12);
+
+
+    h1{
+        font-size: rem(40);
+        font-weight: 700;
+        
+    }
+}
+    
+</style>

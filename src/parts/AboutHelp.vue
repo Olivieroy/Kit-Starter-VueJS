@@ -13,3 +13,35 @@
         
     </div>
 </template>
+
+<style lang="scss">
+
+@use '../sass/global' as *;
+
+    .abouthelp{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: rem(12);
+
+        .img{
+            max-width: 25%;
+        }
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            // justify-content: flex-start;
+            gap: rem(12);
+
+            max-width: 75%;
+
+            h2{
+                font-size: rem(40);
+                font-weight: 700;
+            }
+        }
+    }
+
+</style>
