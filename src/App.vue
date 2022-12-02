@@ -21,11 +21,6 @@ import Footer from "./layouts/Footer.vue";
 
 @use 'sass/global' as *;
 
-.main{
-    max-width: rem(1200);
-    margin: auto;
-    padding: rem(0) rem(16);
-    min-height: 100vh;
-}
+
 </style>
 
