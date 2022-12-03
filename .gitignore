@@ -24,3 +24,4 @@ lerna-debug.log*
 
 # Bloquer le partage du dossir sass-private
 sass-private
+.DS_Store
