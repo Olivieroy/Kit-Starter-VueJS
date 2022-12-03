@@ -59,23 +59,6 @@ Good Luck ! 🍀
 │   ├── img 📁        # Images
 │   │
 │   └──  sass 📁                    # SASS folder
-│       ├── global 📁              # Global folder
-│       │   ├── _animations.scss 📄        # Animations file
-│       │   │
-│       │   ├── _breakpoints.scss 📄        # Breakpoints file
-│       │   │
-│       │   ├── _colors.scss 📄        # Colors file
-│       │   │
-│       │   ├── _fonts.scss 📄        # Fonts file
-│       │   │
-│       │   ├── _functions.scss 📄        # Functions file
-│       │   │
-│       │   ├── _icons.scss 📄        # Icons file
-│       │   │
-│       │   ├── _index.scss 📄        # Index file for global
-│       │   │
-│       │   └──  _mixins.scss 📄        # Mixins file
-│       │
 │       ├── libs 📁              # Libs folder
 │       │   ├── _index.scss 📄        # Index file for libs
 │       │   │
