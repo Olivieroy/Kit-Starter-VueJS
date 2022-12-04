@@ -8,6 +8,7 @@
         <p>Don't forget to give me a star on my github repo, it will help me a lot. 🌟</p>
         <p>And if you want to support me, you can buy me a coffee. ☕</p>
     </div>
+
 </template>
 
 <style lang="scss">
