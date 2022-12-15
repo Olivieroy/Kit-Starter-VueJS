@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from "vue-router";
             <router-link  to="/about">About</router-link>
             <router-link to="/test">Test</router-link>
        </nav>
-        <a href="https://github.com/Olivieroy" target="_blank">Create by Olivieroy</a>
+        <a href="https:olivieroy.fr" target="_blank">Create by Olivieroy</a>
     </header>
 </template>
 
